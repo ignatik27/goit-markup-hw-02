@@ -1,2 +1,26 @@
-/*ШАПКА САЙТА*/
+:root {
+    --primary-text-color: #212121;
+    --title-text-color: #FFFFFF;
+    --accent-text-color: #757575;
+    --primary-bg-color: #2196F3;
+}
+body {
+    background-color: #F5F5F5;
+}
+header {
+    background-color: #FFFFFF;
+}
+footer {
+    background-color: #2F303A;
+}
+/*header*/
 
+.logo {
+    color: #000000;
+}
+.web {
+    color: #2196F3;
+}
+.sitenav-header {
+    color:  
+}
