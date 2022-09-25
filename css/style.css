@@ -6,6 +6,7 @@
 }
 body {
     background-color: #F5F5F5;
+    font-family: 'Roboto';
 }
 header {
     background-color: #FFFFFF;
@@ -13,14 +14,188 @@ header {
 footer {
     background-color: #2F303A;
 }
+.list {
+    list-style: none;
+}
+
 /*header*/
 
 .logo {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.2;
     color: #000000;
 }
 .web {
     color: #2196F3;
 }
-.sitenav-header {
-    color:  
+.header-sitenav {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.15;
+    color: #212121;
 }
+.header-sitenav:hover,
+.header-sitenav:focus {
+    color: #2196F3;
+}
+.header-mail {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.15;
+    color: #757575;
+}
+.header-mail:hover,
+.header-mail:focus {
+    color: #2196F3;
+}
+.header-tel {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.15;
+    color: #757575;
+}
+.header-tel:hover,
+.header-tel:focus {
+    color: #2196F3;
+}
+
+/*hero*/
+
+.hero {
+    background-color: #2F303A;
+}
+.hero-title {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.4;
+    color: #FFFFFF;
+}
+.hero-button {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.9;
+    background: #2196F3;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+/*преимущества*/
+
+.benefits-list {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.2;
+    color: #212121;
+}
+.benefits-title {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.15;
+    color: #212121;
+}
+.benefits-text {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.7;
+    color: #757575;
+}
+
+/*работа*/
+
+.work-title {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.2;
+    color: #212121;
+}
+/*для фото*/
+
+/*команда*/
+
+.team-title {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.2;
+    color: #212121;
+}
+.team-name {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.2;
+    color: #212121;
+}
+.job-title {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.2;
+    color: #757575;
+}
+
+/*подвал*/
+
+.footer-logo {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.2;
+    color: #FFFFFF;
+}
+.footer-web {
+    color: #2196F3;
+}
+.footer-address {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.7;
+    color: #FFFFFF;
+}
+.footer-mail {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.7;
+    color: #757575;
+}
+.footer-tel {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.7;
+    color: #757575;
+}
+
+
