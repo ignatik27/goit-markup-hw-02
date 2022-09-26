@@ -5,7 +5,7 @@
     --primary-bg-color: #2196F3;
 }
 body {
-    background-color: #F5F5F5;
+    background-color: #FFFFFF;
     font-family: 'Roboto';
 }
 header {
@@ -17,6 +17,10 @@ footer {
 .list {
     list-style: none;
 }
+.link {
+    text-decoration: none;
+}
+
 
 /*header*/
 
@@ -181,6 +185,7 @@ footer {
     line-height: 1.7;
     color: #FFFFFF;
 }
+
 .footer-mail {
     font-family: 'Roboto';
     font-style: normal;
@@ -189,6 +194,11 @@ footer {
     line-height: 1.7;
     color: #757575;
 }
+.footer-mail:hover,
+.footer-mail:focus {
+    color: #2196F3;
+}
+
 .footer-tel {
     font-family: 'Roboto';
     font-style: normal;
@@ -197,5 +207,15 @@ footer {
     line-height: 1.7;
     color: #757575;
 }
+.footer-tel:hover,
+.footer-tel:focus {
+    color: #2196F3;
+}
+
+/*portfolio-header*/
+
+
+
+
 
 
