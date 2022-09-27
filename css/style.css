@@ -10,7 +10,7 @@ header {
 }
 body {
     background-color: #FFFFFF;
-    font-family: 'Roboto';
+    font-family: 'Roboto' sans-serif;
 }
 footer {
     background-color: #2F303A;
@@ -83,7 +83,10 @@ footer {
     font-style: normal;
     font-weight: 900;
     font-size: 44px;
-    line-height: 1.4;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
     color: var(--title-text-color)
 }
 .hero-button {
@@ -120,7 +123,6 @@ footer {
 .benefits-text {
     font-family: 'Roboto';
     font-style: normal;
-    font-weight: 400;
     font-size: 14px;
     line-height: 1.7;
     color: var(--accent-text-color)
@@ -159,7 +161,6 @@ footer {
 .job-title {
     font-family: 'Roboto';
     font-style: normal;
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.2;
     color: var(--accent-text-color)
@@ -181,18 +182,18 @@ footer {
 .footer-address {
     font-family: 'Roboto';
     font-style: normal;
-    font-weight: 400;
     font-size: 14px;
     line-height: 1.7;
+    letter-spacing: 0.03em;
     color: var(--title-text-color)
 }
 
 .footer-mail {
     font-family: 'Roboto';
     font-style: normal;
-    font-weight: 400;
+    font-weight: 500;
     font-size: 14px;
-    line-height: 1.7;
+    line-height: 1.15;
     color: var(--accent-text-color)
 }
 .footer-mail:hover,
@@ -203,9 +204,9 @@ footer {
 .footer-tel {
     font-family: 'Roboto';
     font-style: normal;
-    font-weight: 400;
+    font-weight: 500;
     font-size: 14px;
-    line-height: 1.7;
+    line-height: 1.15;
     color: var(--accent-text-color)
 }
 .footer-tel:hover,
@@ -220,7 +221,7 @@ footer {
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
-    line-height: 26px;
+    line-height: 1.6;
     text-align: center;
     letter-spacing: 0.03em;
     color: #212121;
