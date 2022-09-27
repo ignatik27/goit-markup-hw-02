@@ -85,7 +85,6 @@ footer {
     font-size: 44px;
     line-height: 1.36;
     text-align: center;
-    letter-spacing: 0.06em;
     text-transform: uppercase;
     color: var(--title-text-color)
 }
@@ -186,6 +185,10 @@ footer {
     line-height: 1.7;
     letter-spacing: 0.03em;
     color: var(--title-text-color)
+}
+.footer-address:hover,
+.footer-address:focus {
+    color: var(--primary-bg-color);
 }
 
 .footer-mail {
