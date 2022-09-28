@@ -21,9 +21,7 @@ footer {
 .link {
     text-decoration: none;
 }
-.current {
-    color: var(--primary-bg-color);
-}
+
 
 
 /*header*/
@@ -51,6 +49,10 @@ footer {
 .header-sitenav:focus {
     color: var(--primary-bg-color)
 }
+.sitenav .link.current {
+    color: var(--primary-bg-color);
+}
+
 .header-mail {
     font-family: 'Roboto';
     font-style: normal;
