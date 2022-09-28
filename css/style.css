@@ -21,6 +21,9 @@ footer {
 .link {
     text-decoration: none;
 }
+.active {
+    color: var(--primary-bg-color)
+}
 
 
 /*header*/
@@ -141,6 +144,10 @@ footer {
 
 /*команда*/
 
+
+.team {
+    background-color: #F5F4FA;
+}
 .team-title {
     font-family: 'Roboto';
     font-style: normal;
